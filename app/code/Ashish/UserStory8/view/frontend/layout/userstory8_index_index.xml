@@ -1,0 +1,8 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Ashish\UserStory8\Block\TableBlock" name="userstory8.save.block" template="Ashish_UserStory8::save.phtml"/>
+            <block class="Ashish\UserStory8\Block\TableBlock" name="userstory8.table.block" template="Ashish_UserStory8::table.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
