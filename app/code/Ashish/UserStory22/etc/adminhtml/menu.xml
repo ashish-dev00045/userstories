@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework/Menu/etc/menu.xsd">
+    <menu>
+        <add id="Ashish_UserStory22::popup"
+             title="Manage Pop-ups"
+             module="Ashish_UserStory22"
+             sortOrder="100"
+             parent="Magento_Backend::content"
+             action="userstory22/popup/index"
+             resource="Ashish_UserStory22::popup"/>
+    </menu>
+</config>
