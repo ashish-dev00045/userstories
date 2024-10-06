@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout.xsd">
+    <referenceContainer name="content">
+        <block class="Ashish\UserStory9\Block\Text" name="userstory9_text" template="Ashish_UserStory9::display.phtml"/>
+    </referenceContainer>
+</layout>
